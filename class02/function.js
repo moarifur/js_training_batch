@@ -47,3 +47,35 @@ Assignment: clacBasicArithmetic(x, y) -
 (iv) division
 
 */ 
+
+
+/*
+    Define a function
+    Types of Function:
+    - Declarative 
+    - Expressive
+    - Arrow
+    - Callback
+    - Anonymous
+    - IFIE
+    
+    Function = first class object
+    Object = Special Data type
+*/ 
+
+// Declarative
+function sumTwoNumbers(x, y){
+    return `Sum: ${x+y}`
+}
+
+// Expressive
+let sumTwoNumbers = function (x, y){
+    return `Sum: ${x+y}`
+}
+
+// Arrow
+let sumTwoNumbers = (x, y) => {
+    return `Sum: ${x+y}`
+}
+
+let sumTwoNumbers = (x, y) => `Sum: ${x+y}`
