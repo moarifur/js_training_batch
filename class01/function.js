@@ -11,7 +11,11 @@
     - array: []
 */ 
 
-
+let x = 5
+const y = 10
+const sumTwoNumbers = x + y
+// console.log('Sum of 2 numbers are:' + x+y)
+console.log('Sum:' + sumTwoNumbers)
 
 // + sign is being used as: (i) addtional operator, (ii) concatination
 
