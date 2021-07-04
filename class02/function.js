@@ -57,7 +57,7 @@ Assignment: clacBasicArithmetic(x, y) -
     - Arrow
     - Callback
     - Anonymous
-    - IFIE
+    - IIFE
     
     Function = first class object
     Object = Special Data type
